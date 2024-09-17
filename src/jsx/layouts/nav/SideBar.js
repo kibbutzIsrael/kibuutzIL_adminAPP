@@ -238,7 +238,6 @@ const SideBar = () => {
               </div>
             </div>
           </div> */}
-            <li> <LogoutPage /></li>
             </ul>
             <div className="copyright">
                <p className="fs-12 text-center">
@@ -247,6 +246,7 @@ const SideBar = () => {
                   by kibbutzIL
                </p>
             </div>
+            <li> <LogoutPage /></li>
          </PerfectScrollbar>
       </div>
    );
